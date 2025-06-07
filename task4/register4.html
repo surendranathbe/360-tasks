@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration example 4</title>
+</head>
+<body>
+    
+    
+    <h5 border="2" style="border: 5px solid palevioletred; padding: 20px; width: 50%; margin: auto; background-color: lightgray;">
+        <center>
+        <caption>
+        <h3>registration Form</h3>
+    </caption>
+    </center>
+        <center>
+        <table>
+        <form name="registration example4" action="https://dummyserver.com" method="post">
+            <tr>
+                <td>
+                    <label for="First name">First Name:</label>&nbsp;
+                </td>
+                <td>
+                    <label for="last name">Last Name</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="text" name="first name" id="first name" placeholder="Enter your first name" required>
+                </td>
+                <td>
+                    <input type="text" name="last name" id="last name" placeholder="Enter your last name" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="Birth">Birthday</label>
+                </td>
+                <td>
+                    <label for="Gender">Gender</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="date" name="birth" id="birth" required>
+                </td>
+                <td>
+                    <input type="radio" name="Gender" id="male" value="male">male
+                    <input type="radio" name="Gender" id="female" value="female">female
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="Email">Email</label>
+                </td>
+                <td>
+                    <label for="Phone">Phone number</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                </td>
+                <td>
+                    <input type="tel" name="phone" id="phone" placeholder="Enter your phone number" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="sub">Subject</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <select name="subject" id="subject" style="width: 200%;">
+                        <option value="" disabled selected>Select your subject</option>
+                        <option value="java">java</option>
+                        <option value="python">python</option>
+                        <option value="c">C language</option>
+                        <option value="angular">angular</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="submit" style="background-color: skyblue; color: white;">
+                </td>
+            </tr>
+        </form>
+    </table>
+    </center>
+    </h5>
+    
+    
+</body>
+</html>
